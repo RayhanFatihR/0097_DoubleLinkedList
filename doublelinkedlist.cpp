@@ -32,7 +32,7 @@ class DoubleLinkedList
         // Srep 2 : Assign value to the data field
         newNode->noMhs = nim;
 
-        // Step 3 : Insert at beginning if list is empty or nim 
+        // Step 3 : Insert at beginning if list is empty or nim is 
         if (START == NULL || nim <= START->noMhs)
         {
             if (START != NULL && nim == START->noMhs)
