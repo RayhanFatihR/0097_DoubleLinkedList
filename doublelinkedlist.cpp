@@ -57,8 +57,10 @@ class DoubleLinkedList
 
         //insert in between node
         //Step 8 : Traverse the list to find the correct position
-                
+        Node * current = START;
+        while (current->next != NULL && current->next->noMhs < nim)
+        {
             
-       
+        }
     }
 }
