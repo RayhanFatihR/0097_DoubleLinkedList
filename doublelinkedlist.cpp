@@ -25,5 +25,24 @@ class DoubleLinkedList
         int nim;
         cout << "\nEnter the roll number of the student: ";
         cin >> nim;
+
+        // Step 1 : Allocate memory for new node
+        Node * newNode = new Node();
+
+        // Srep 2 : Assign value to the data field
+        newNode->noMhs = nim;
+
+        // Step 3 : Insert at beginning if list is empty or nim 
+        if (START == NULL || nim <= START->noMhs)
+        {
+            if (START != NULL && nim == START->noMhs)
+            {
+                cout << "\nDuplicate number not allowed" << endl;
+                return;
+            }
+            
+                
+            
+       
     }
 }
